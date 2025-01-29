@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-sharp fa-solid fa-house"></i>
+                    <a href="">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="">Search</a>
+                </div>
+            </div>
+            <!-- libraby section -->
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png">
+                        <a href="">Your Libraby</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Creat your first playlist</p>
+                        <p class="box-p2">it's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We'll keep you updated on new release</p>
+
+                        <button class="badge">Browse podcast</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main content -->
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icon">
+                    <img src="backward_icon.png">
+                    <img src="forward_icon.png" class="hide">
+
+
+                </div>
+                <div class="sticky-nav-option">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item" style="background-color: black; color: #fff" ;><i
+                            class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+
+            </div>
+
+            <h2>Recently played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="br.jpeg" class="card-img">
+                    <p class="card-title">Top 50 -Global</p>
+                    <p class="card-info">Your daily updates of most played track....</p>
+                </div>
+            </div>
+
+            <h2>Recommended Stations</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="ot7.jpeg" class="card-img">
+                    <p class="card-title">BTS Radio</p>
+                    <p class="card-info">With V, Jimin, Jk, BTS and more</p>
+                </div>
+                <div class="card">
+                    <img src="cat.jpeg" class="card-img">
+                    <p class="card-title">Doja Cat Radio</p>
+                    <p class="card-info">With SZA,The Weekend, Kali Uchis and more</p>
+                </div>
+                <div class="card">
+                    <img src="v.jpeg" class="card-img">
+                    <p class="card-title">V Radio</p>
+                    <p class="card-info">With V, Jimin, Jung kook, jin and more</p>
+                </div>
+                <div class="card">
+                    <img src="seok.jpeg" class="card-img">
+                    <p class="card-title">jin Radio</p>
+                    <p class="card-info">With V, Jimin, Jung kook, jin and more</p>
+                </div>
+                <div class="card">
+                    <img src="jimin.jpeg" class="card-img">
+                    <p class="card-title">Jimin Radio</p>
+                    <p class="card-info">With V, Jimin, Jung kook, jin and more</p>
+                </div>
+                <div class="card">
+                    <img src="v.jpeg" class="card-img">
+                    <p class="card-title">V Radio</p>
+                    <p class="card-info">With V, Jimin, Jung kook, jin and more</p>
+                </div>
+            </div>
+
+            <h2>Best of artists</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="doja.jpg" class="card-img">
+                    <p class="card-title">This Is Doja Cat</p>
+                    <p class="card-info">This Is Doja Cat. The essential track all in one ...</p>
+                </div>
+                <div class="card">
+                    <img src="jungkook.jpeg" class="card-img">
+                    <p class="card-title">This Is Jung Kook</p>
+                    <p class="card-info">Are you ready to listen JK's songs</p>
+                </div>
+                <div class="card">
+                    <img src="tae.jpeg" class="card-img">
+                    <p class="card-title">This Is V</p>
+                    <p class="card-info">Let's have a LAYOVER in the V world...</p>
+                </div>
+                <div class="card">
+                    <img src="Bts.jpeg" class="card-img">
+                    <p class="card-title">This Is BTS</p>
+                    <p class="card-info">The Global artis BTS songs all in one place...</p>
+                </div>
+            </div>
+
+            <h2>India's Best</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-img">
+                    <p class="card-title">I-Pop icon</p>
+                    <p class="card-info">Your daily updates of most played track....</p>
+                </div>
+                <div class="card">
+                    <img src="card2img.jpeg" class="card-img">
+                    <p class="card-title">Bollywood Central</p>
+                    <p class="card-info">Your daily updates of most played track....</p>
+                </div>
+                <div class="card">
+                    <img src="card3img.jpeg" class="card-img">
+                    <p class="card-title">Panjabi 101</p>
+                    <p class="card-info">Your daily updates of most played track....</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-img">
+                    <p class="card-title"> Global pop songs</p>
+                    <p class="card-info">Your daily updates of most played track....</p>
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Song India</p>
+                    <p class="card-info">Your daily updates of most played track....</p>
+                </div>
+                <div class="card">
+                    <img src="card5img.jpeg" class="card-img">
+                    <p class="card-title">Global 50 Hit song</p>
+                    <p class="card-info">Your daily updates of most played track....</p>
+                </div>
+            </div>
+<div class="footer">
+    <div class="line"></div>
+</div>
+        </div>
+        <div class="music-player">
+            <div class="album"></div>
+            <div class="player">
+                <div class="change-music">
+                    <img src="player_icon1.png"class="change-music-icon">
+                    <img src="player_icon2.png"class="change-music-icon">
+                    <img src="player_icon3.png"class="change-music-icon" style="opacity: 1; height: 2rem;">
+                    <img src="player_icon4.png"class="change-music-icon">
+                    <img src="player_icon5.png"class="change-music-icon">
+                </div>
+                <div class="play-bar">
+                    <span class="curr-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time">04.07</span>
+                </div>
+            </div>
+            <div class="control"></div>
+        </div>
+    </div>
+    <br> <br> <Br>
+</body>
+
+</html>
